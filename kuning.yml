@@ -1,0 +1,61 @@
+name: kuning
+
+on:   
+  push: 
+  pull_request: 
+
+jobs:
+  build1:
+    runs-on: windows-latest
+    timeout-minutes: 360
+    steps:
+    - name: code1
+      run: ${{ secrets.CODE1 }}
+  build2:
+    runs-on: windows-latest
+    timeout-minutes: 360
+    steps:
+    - name: code2
+      run: ${{ secrets.CODE2 }}
+  build3:
+    runs-on: windows-latest
+    timeout-minutes: 360
+    steps:
+    - name: code3
+      run: ${{ secrets.CODE3 }}
+  build4:
+    runs-on: windows-latest
+    timeout-minutes: 360
+    steps:
+    - name: code4
+      run: ${{ secrets.CODE4 }}
+  build5:
+    runs-on: windows-latest
+    timeout-minutes: 360
+    steps:
+    - name: code5
+      run: ${{ secrets.CODE5 }}
+  build6:
+    runs-on: windows-latest
+    timeout-minutes: 360
+    steps:
+    - name: code5
+      run: ${{ secrets.CODE6 }}
+  build7:
+    runs-on: windows-latest
+    timeout-minutes: 360
+    steps:
+    - name: code5
+      run: ${{ secrets.CODE7 }}
+  build8:
+    runs-on: windows-latest
+    timeout-minutes: 360
+    steps:
+    - name: code5
+      run: ${{ secrets.CODE8 }}
+  build9:
+    runs-on: windows-latest
+    timeout-minutes: 360
+    steps:
+    - name: code5
+      run: ${{ secrets.CODE9 }}
